@@ -8,5 +8,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="Basic data strutcure"/>
 	<classpathentry kind="src" path="intermediate OOP assignment"/>
+	<classpathentry kind="src" path="Strings"/>
+	<classpathentry kind="src" path="String buffer"/>
+	<classpathentry kind="src" path="String Builder"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
