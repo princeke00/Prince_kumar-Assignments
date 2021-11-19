@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class BankOperation extends MainWithdrawal {
+@SuppressWarnings("serial")
+public class BankOperation extends Throwable {
 	long id;
 	double balance = 0;
 	double amount;
@@ -27,7 +28,7 @@ public class BankOperation extends MainWithdrawal {
 
 }
 
-class MainWithdrawal extends Throwable {
+class MainWithdrawal  {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		BankOperation sa = new BankOperation();

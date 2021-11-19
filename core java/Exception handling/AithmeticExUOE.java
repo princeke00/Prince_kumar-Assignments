@@ -15,13 +15,12 @@ public class AithmeticExUOE {
 				int c = (a / b);
 				System.out.println("Division of Two Numbers: " + c);
 			} else
-				throw new UnsupportedOperationException("Invalid operation Since it is Not Divisible by Zero");
-		} catch (java.lang.UnsupportedOperationException e) {
+				throw new UnsupportedOperationException();
+		} catch (UnsupportedOperationException e) {
 			e.printStackTrace();
 		}finally {
 			sc.close();
 		}
 		
 	}
-
 }

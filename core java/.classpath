@@ -12,5 +12,8 @@
 	<classpathentry kind="src" path="String buffer"/>
 	<classpathentry kind="src" path="String Builder"/>
 	<classpathentry kind="src" path="Exception handling"/>
+	<classpathentry kind="src" path="Generics"/>
+	<classpathentry kind="src" path="Collection"/>
+	<classpathentry kind="src" path="Lambda"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
