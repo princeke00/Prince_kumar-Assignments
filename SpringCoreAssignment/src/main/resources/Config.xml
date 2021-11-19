@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context.xsd">
+	<!-- my data -->
+	<!-- <bean class="maven1.Student" name="student1">
+		<property name="sId" value="123" />
+		<property name="sName" value="prince kumar" />
+		<property name="sAddress" value="sheohar bihar" />
+	</bean> -->
+	<bean id="address" class="first.Address">
+		<property name="street" value="gandhi_chowk" />
+		<property name="city" value="sheohar" />
+		<property name="state" value="bihar" />
+		<property name="country" value="india" />
+		<property name="zip" value="843329" />
+	</bean> 
+	<bean id="costomer" class="first.Costomer">
+		<property name="costomerName" value="prince" />
+		<property name="costomerId" value="167" />
+		<property name="costomerContact" value="9060989516" />
+		<property name="address" ref="address" />
+	</bean>
+	
+
+
+</beans> 
